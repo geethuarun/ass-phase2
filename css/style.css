@@ -1,0 +1,145 @@
+*{ 
+ padding: 0%;
+margin: 0%;
+}
+
+body{
+background-image: url(../images/kerala-views.jpg);
+ background-size : cover;
+}
+
+.headtag{
+    float: right;
+    margin-top: 40px;
+    margin-right: 60px;}
+
+  .headtag a {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding:5px 20px;
+    border: 1px solid yellow;
+    transition: 0.6s ease;
+    
+}
+ .headtag a:hover{ 
+     background-color:black;
+     color: blanchedalmond;
+ }
+ h1{
+     font-size: 70px ;
+    
+} 
+
+.para{
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+#ptag{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+color : beige;
+} 
+
+/* signin page */
+.signin{
+    background-image: url(../images/paadam.jpg);
+    background-size: cover;
+}
+
+.signinn{
+      /* border: 1px solid black;  */
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 30px;
+    margin-top: 10%;
+    
+}
+.sign{
+    font-size: 2em;
+    text-align:center;
+}
+.signinn input{
+    height: 2em;
+}
+#button{
+width: 75%; 
+height: 2.5em;
+background-color: blue;
+border: 1px solid blue;
+}
+/* signup page */
+.signup{
+    background-image: url(../images/cover\ kerala.jpg);
+    background-size: cover;
+}
+
+.signupp{
+      /* border: 1px solid black;  */
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 30px;
+    margin-top: 10%;
+    
+}
+.signn{
+    font-size: 2em;
+    text-align:center;
+    color: #ffe4c4;
+}
+.signup-cont{
+    height: 2em;
+    color: blanchedalmond;
+    font-size: 1em;
+    
+}
+#buttonn{
+width: 75%; 
+height: 2.5em;
+background-color: blue;
+border: 1px solid blue;
+}
+.fivee{
+    color: blanchedalmond;
+}
+.district{
+    background-image: none;
+}
+.tvm{
+    height: 80%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.district a{
+    color:white;
+    padding: 10%;
+    font-size: 160%;
+    text-decoration: none;
+    
+}
+
+.myMargin{
+    margin: 3%;
+    height: 30%;
+
+}
+
+.card  {
+    width: 50%;
+    
+}
+.fourteen{
+    background-image: none;
+}
+.card-img-top{
+    height: 50%;
+}
+.card-text{
+    height:10%
+}
+.tsrr{
+    text-align: center;
+}

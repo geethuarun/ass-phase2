@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href=css/style.css>
+    
+</head>
+<body class="signin">
+    
+            <form action="index.html"  class="signinn"  onsubmit="return validate() && validd()"> 
+                <h2 class="sign">Sign in</h2>
+                <br>
+                <div class="signin-cont">
+                    <label >Email id</label>
+                    <br>
+                    <input type="text" placeholder="Enter your email id" id="email">
+                </div>
+                <div id="email_error"></div>
+                <br>
+                <div class="signin-cont">
+                    <label >Password</label>
+                    <br>
+                    <input type="password" placeholder="Enter your Password" id="pwd">
+                </div>
+                <div id="password_error"></div>
+                <br>
+                <div>
+                    <button  id="submit">Sign In</button>
+                </div>
+                <br>
+                <div class="signin-mis">
+                    <h5 class=five>Need an Account?</h5>
+                    <a href="Sign up.html">Signup</a>
+                </div>
+                
+
+            </form>
+        
+    <script src="css/form.js"></script>
+    
+    
+</body>
+</html>
